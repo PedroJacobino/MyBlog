@@ -21,4 +21,19 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+
+
+# Features
+
+
+* CRUD (create / read / update / delete) on posts
+
+* Creating comments on post page
+
+* Pagination on posts listing
+
+* Searching on posts
+
+* Authentication with Devise and authorizations (visitors, users, admins)
+
+* Creating user account
