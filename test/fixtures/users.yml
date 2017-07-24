@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  email: MyString
-  crypted_password: MyString
-  salt: MyString
+  email: user1@test.dev
+  salt: <%= salt = "asdasdastr4325234324sdfds" %>
+  crypted_password: <%= Sorcery::CryptoProviders::BCrypt.encrypt("secret", salt) %>
 
 two:
-  email: MyString
-  crypted_password: MyString
-  salt: MyString
+  email: user2@test.dev
+  salt: <%= salt = "asdasdastr4325234324sdfds" %>
+  crypted_password: <%= Sorcery::CryptoProviders::BCrypt.encrypt("secret", salt) %>
