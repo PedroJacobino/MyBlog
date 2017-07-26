@@ -15,5 +15,11 @@
 
 @import "bootstrap";
 body {
-  background: image-url('blog-background.jpg');
+  background: asset-url('background-image.jpg.png');
+}
+h1{
+  color: red;
+}
+table {
+  color: green;
 }
